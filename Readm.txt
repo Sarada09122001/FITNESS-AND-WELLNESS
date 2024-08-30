@@ -1,0 +1,42 @@
+# Gym Management System Project
+
+## Introduction
+The Gym Management System is a full-stack web application developed using React JS, Spring Boot, and MySQL. It helps administrators manage gym members, trainers, and membership packages. Members can view their profile, memberships, and gym packages.
+
+## Technologies Used
+- Spring Boot (REST APIs)
+- React JS (Frontend)
+- BootStrap (Styling)
+- MySQL (Database)
+- Maven (Project Management)
+- Embedded Tomcat Server (Running Spring Boot Project)
+
+## User Modules
+1. **Administrator Module**
+2. **Member Module**
+
+## Functional Modules
+1. **User Authentication Module:** Registration and login for both admins and members.
+2. **Trainer Module:** Add and view trainers.
+3. **Package Module:** Add and view gym packages.
+4. **Member Module:** Register, login, view, and update member details.
+5. **Admin Module:** Register and login admin.
+6. **Membership Module:** Add and view memberships.
+
+## Features
+- **Admin:**
+  - Register and login.
+  - Add packages and trainers.
+  - Search and manage members.
+- **Member:**
+  - Register and login.
+  - View and update profile.
+  - View membership details and available packages.
+  - BMI calculator.
+
+## How to Run
+
+### Backend (Spring Boot)
+1. Install MySQL and create a database:
+   ```sql
+   CREATE DATABASE gym_management;
